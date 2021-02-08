@@ -4,11 +4,21 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
+   $("#a1").hide();
+   $("#a2").hide();
+   $("#a3").hide();
+   
    $("#Hide").click(function(){
     $("#a1").hide();
     $("#a2").hide();
     $("#a3").hide();
-});
+   });
+   
+   $("#Show").click(function(){
+    $("#a1").show();
+    $("#a2").show();
+    $("#a3").show();
+   });
 });
 </script>
   
