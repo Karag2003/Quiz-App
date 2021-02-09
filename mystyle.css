@@ -5,4 +5,5 @@ color: blue;
 h1 {
 text-align: center;
 border-bottom-style: solid;
+border-color: blue;
 }
