@@ -3,7 +3,7 @@ color: blue;
 }
 
 h1 {
-text-align: center;
-border-bottom-style: solid;
+border-style: solid;
 border-color: blue;
+text-align: center;
 }
